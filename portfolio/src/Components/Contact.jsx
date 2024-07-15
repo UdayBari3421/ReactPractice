@@ -15,9 +15,7 @@ const Contact = () => {
         <motion.p whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className="my-4">
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="https://mailto:udaybari2003@gmail.com" className="my-4 border-b">
-          {CONTACT.email}
-        </a>
+        <a className="my-4 border-b">{CONTACT.email}</a>
       </div>
     </div>
   );
